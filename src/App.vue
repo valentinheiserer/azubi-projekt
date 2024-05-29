@@ -10,7 +10,7 @@ const allNews = ref<newsType[]>(news);
 </script>
 
 <template>
-<news-component v-for="(news, index) in allNews" :key="index" :news="news"/>
+  <news-component v-for="(news, index) in allNews" :key="index" :news="news"/>
 </template>
 
 <style scoped>
