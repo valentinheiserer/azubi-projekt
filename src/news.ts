@@ -9,10 +9,12 @@ export type newsType = {
     tags: tag[]
 }
 
-export type tag = "Finanzen" | "Politik" | "Wirtschaft" | "Kriesen" | "Technologie" | "Sport"
+export type tag = "Finanzen" | "Politik" | "Wirtschaft" | "Kriesen" | "Technologie" | "Sport" | undefined
 
 export const news: newsType[] = [
     {
+
+
         author: 'Dr. John Scholz',
         description:
             'Wissenschaftler haben riesige Rohstoffvorkommen in der Antarktis entdeckt',
